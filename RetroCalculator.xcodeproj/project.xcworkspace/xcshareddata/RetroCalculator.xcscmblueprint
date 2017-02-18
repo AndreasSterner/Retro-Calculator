@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "97C7E1BBC642C4F5B124B84924438418B1D17405",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97C7E1BBC642C4F5B124B84924438418B1D17405" : 9223372036854775807,
+    "59FC65C599E74946D21FF625E1C60DCF09EEE11B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "34AFA46D-2AFB-43D7-A4D7-603A044B6B5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97C7E1BBC642C4F5B124B84924438418B1D17405" : "RetroCalculator\/",
+    "59FC65C599E74946D21FF625E1C60DCF09EEE11B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RetroCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RetroCalculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AndreasSterner\/Retro-Calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59FC65C599E74946D21FF625E1C60DCF09EEE11B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AndreasSterner\/Retro-Calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97C7E1BBC642C4F5B124B84924438418B1D17405"
+    }
+  ]
+}
