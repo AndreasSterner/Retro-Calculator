@@ -15,6 +15,7 @@
 		E183F4E41E5799FA00C28B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E183F4E21E5799FA00C28B4A /* LaunchScreen.storyboard */; };
 		E183F4EF1E5799FA00C28B4A /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E183F4EE1E5799FA00C28B4A /* RetroCalculatorTests.swift */; };
 		E183F4FA1E5799FA00C28B4A /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E183F4F91E5799FA00C28B4A /* RetroCalculatorUITests.swift */; };
+		E183F5081E57AE6300C28B4A /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E183F5071E57AE6300C28B4A /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E183F4F51E5799FA00C28B4A /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E183F4F91E5799FA00C28B4A /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		E183F4FB1E5799FA00C28B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E183F5071E57AE6300C28B4A /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E183F4D51E5799FA00C28B4A /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				E183F5071E57AE6300C28B4A /* Minecraft.ttf */,
 				E183F4D61E5799FA00C28B4A /* AppDelegate.swift */,
 				E183F4D81E5799FA00C28B4A /* ViewController.swift */,
 				E183F4DA1E5799FA00C28B4A /* Main.storyboard */,
@@ -240,6 +243,7 @@
 			files = (
 				E183F4E41E5799FA00C28B4A /* LaunchScreen.storyboard in Resources */,
 				E183F4E11E5799FA00C28B4A /* Assets.xcassets in Resources */,
+				E183F5081E57AE6300C28B4A /* Minecraft.ttf in Resources */,
 				E183F4DC1E5799FA00C28B4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
