@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     }
     
     var currentOperation = Operation.Empty
-    var runningNumber = "0"
-    var leftVarStr = ""
+    var runningNumber = ""
+    var leftVarStr = "0"
     var rightValStr = ""
     var result = ""
     
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 
  
     @IBAction func numberPressed(sender: UIButton){
-        //Inkluderade alla knappar
+        outputLbl.text = "0"
         runningNumber += "\(sender.tag)"
         outputLbl.text = runningNumber
         
@@ -61,6 +61,15 @@ class ViewController: UIViewController {
     @IBAction func onEqualPressed(sender: AnyObject?){
         processOperation(operation: currentOperation)
     }
+    
+    @IBAction func onClearPressed(sender: UIButton){
+        currentOperation = Operation.Empty
+        outputLbl.text = "0"
+        runningNumber = "0"
+        leftVarStr = "0"
+        rightValStr = ""
+        result = ""
+    }
 
 
     
@@ -72,18 +81,18 @@ class ViewController: UIViewController {
                 rightValStr = runningNumber
                 runningNumber = ""
                 
-                if currentOperation == Operation.Multiply {
+                if currentOperation == Operation.Multiply && leftVarStr != "" {
                     result = "\(Double(leftVarStr)! * Double(rightValStr)!)"
                     
-                } else if currentOperation == Operation.Divide {
+                } else if currentOperation == Operation.Divide && leftVarStr != "" {
                     result = "\(Double(leftVarStr)! / Double(rightValStr)!)"
 
                     
-                } else if currentOperation == Operation.Subtract {
+                } else if currentOperation == Operation.Subtract && leftVarStr != "" {
                     result = "\(Double(leftVarStr)! - Double(rightValStr)!)"
 
                     
-                } else if currentOperation == Operation.Add {
+                } else if currentOperation == Operation.Add && leftVarStr != "" {
                     result = "\(Double(leftVarStr)! + Double(rightValStr)!)"
 
                 }
